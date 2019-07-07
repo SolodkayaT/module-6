@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400&display=swap');
+@import url('./reset.css');
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*LOGO AND NAVIGATION*/
+
+.logo a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    color: #95E1D3;
+    font-weight: 700;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 110px;
+}
+
+.menu-item a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #95E1D3;
+    margin-right: 55px;
+}
+
+.navigation-menu li:last-child a {
+    margin-right: 0;
+}
+
+.menu-item a:hover {
+    color: #F38181;
+    position: block;
+    border-bottom: 4px solid #F38181;
+    transition: 200ms;
+}
+
+
+/*AMAZING SERVISE*/
+
+.amazin-service {
+    width: 315px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+}
+
+.amazin-service span {
+    display: block;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.service {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.section-service {
+    width: 350px;
+    text-align: left;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.service-icon {
+    width: 32px;
+    height: 32px;
+    border-color: transparent;
+    border: 1px solid red;
+    position: absolute;
+}
+
+.section-service p,
+.section-service h3 {
+    padding-left: 55px;
+}
+
+.amazin-service::after {
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    content: '';
+    margin: 40px auto 60px;
+}
