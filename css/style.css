@@ -44,7 +44,8 @@
     .menu-item a:hover {
         color: #F38181;
         border-bottom: 4px solid #F38181;
-        transition: 200ms cubic-bezier(0, 0, 1, 1);
+        transition: 200ms;
+        transition-timing-function: linear;
     }
     /*AMAZING SERVISE AND OUR TEAM TITLE*/
     
@@ -182,6 +183,10 @@
         width: 381px;
     }
     
+    .team-list-card-img {
+        display: block;
+    }
+    
     .team-name {
         margin-top: 25px;
         text-align: center;
@@ -212,7 +217,8 @@
     
     .team-list-card:hover .overlay-hover-card,
     .team-list-card:hover .team-list-card-img {
-        transition: 200ms cubic-bezier(0, 0, 1, 1);
+        transition: 200ms;
+        transition-timing-function: linear;
         transform: translate(-5px, -5px);
     }
     
@@ -294,7 +300,7 @@
         height: 41px;
         border: 1px solid #e5e5e5;
         padding-left: 10px;
-        color: #CCCCCC;
+        color: #333333;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         font-style: italic;
