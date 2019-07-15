@@ -193,6 +193,7 @@
         font-weight: 300;
         font-style: italic;
         color: #999999;
+        margin-bottom: 85px;
     }
     
     .hover-effect {
@@ -267,15 +268,6 @@
     }
     /*FOOTER*/
     
-    .line-footer {
-        display: block;
-        width: 1200px;
-        height: 2px;
-        background-color: #e5e5e5;
-        content: '';
-        margin-bottom: 20px;
-    }
-    
     .about-company-footer {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
@@ -288,25 +280,24 @@
         color: #F38181;
     }
     
-    .about-company-footer::before {
-        display: block;
-        width: 150px;
-        height: 4px;
-        background-color: #F38181;
-        content: '';
-        margin: 40px auto 60px;
-    }
-    
     .footer-section {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        border-top: 2px solid #e5e5e5;
+        padding-top: 10px;
     }
     
     .subscribe-form input {
         width: 231px;
         height: 41px;
         border: 1px solid #e5e5e5;
-        margin-bottom: 10px;
+        padding-left: 10px;
+        color: #CCCCCC;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-style: italic;
     }
     
     .subscribe-form {
@@ -324,7 +315,9 @@
         cursor: pointer;
     }
     
-    input::placeholder {
-        padding-left: 10px;
-        color: #CCCCCC;
+    .our-team-list::after {
+        content: '';
+        display: block;
+        bottom: 0;
+        border-bottom: 2px solid red;
     }
